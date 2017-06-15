@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RestaurantPrototype</string>
+    <string name="iconDescription">iconDescription</string>
+    <string name="iconImage">iconImage</string>
+    <string name="iconContainer">iconContainer</string>
+    <string name="frameContainer">frameContainer</string>
+    <string name="transitionFAB">transitionFAB</string>
+    <string name="currentOrderFrameTransition">currentOrderFrameTransition</string>
+    <string name="HelloTextTransition">HelloTextTransition</string>
+    <string name="mToolbarTransition">mToolbarTransition</string>
+
+
+    <string-array name="categories">
+        <item>Select Category</item>
+        <item>Appetizer</item>
+        <item>Entrée\</item>
+        <item>Main course</item>
+        <item>Dessert</item>
+        <item>Café</item>
+    </string-array>
+</resources>

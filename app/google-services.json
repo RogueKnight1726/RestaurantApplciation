@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1053019489771",
+    "firebase_url": "https://ezbuttler.firebaseio.com",
+    "project_id": "ezbuttler",
+    "storage_bucket": "ezbuttler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053019489771:android:6d4e1f3a517a8efd",
+        "android_client_info": {
+          "package_name": "eiv.rohueknight1726.com.restaurantprototype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053019489771-4i5is1rd9roclomt8iaavhvgnj935n57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eiv.rohueknight1726.com.restaurantprototype",
+            "certificate_hash": "ec492903e6ea5e3a0f13c056c3147b20ff98b895"
+          }
+        },
+        {
+          "client_id": "1053019489771-t655gp69qbvlbgqtetcp41ui178f5t5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY5W5Rzs3NgJpKGU4SKvBHtq5qmwt5GtY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053019489771-t655gp69qbvlbgqtetcp41ui178f5t5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

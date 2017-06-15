@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="36dp">
+<FrameLayout
+    android:layout_width="800dp"
+    android:layout_height="240dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="-70dp"
+    android:background="#F0AF"
+    android:rotation="20">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bannerImageOne"
+        android:scaleType="center"
+        android:alpha="0.7"
+        android:rotation="0"/>
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="800dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="188dp"
+        android:background="#F0FA"
+        android:rotation="20">
+
+        <ImageView
+            android:id="@+id/bannerImageTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:rotation="0"
+            android:scaleType="center" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="800dp"
+        android:layout_height="290dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="448dp"
+        android:background="#FF00"
+        android:rotation="20">
+
+        <ImageView
+            android:id="@+id/bannerImageThree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:rotation="0"
+            android:scaleType="center" />
+    </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

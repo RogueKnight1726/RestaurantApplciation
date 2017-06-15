@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232323"
+    tools:context="eiv.rohueknight1726.com.restaurantprototype.landingPage">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/animationContainer"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Table A"
+                    android:layout_margin="16dp"
+                    android:textColor="#D7452D"
+                    android:textStyle="bold"
+                    android:id="@+id/carousselTableName"
+                    android:fontFamily="sans-serif-thick"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cheese cake with Blueberries, Almond coffee..."
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="16dp"
+                    android:id="@+id/carousselOrders"
+                    android:textSize="12sp"
+                    android:textColor="#D7452D"
+                    android:fontFamily="sans-serif-light"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$19.00"
+                    android:id="@+id/carousselPrice"
+                    android:textSize="21sp"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="16dp"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="68dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="3dp"
+                android:background="#34AA"
+                android:layout_marginRight="16dp"
+                >
+                <FrameLayout
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:background="#00AA88"
+                    android:layout_marginTop="20dp"></FrameLayout>
+                <FrameLayout
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:background="#00AA88"
+                    android:layout_marginTop="60dp"></FrameLayout>
+                <FrameLayout
+                    android:layout_width="260dp"
+                    android:layout_height="20dp"
+                    android:background="#00AA88"
+                    android:layout_marginTop="100dp"></FrameLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Break availed: 20 mins" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total tables served: 4" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Closed orders: $278.43" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="436dp"
+        android:alpha="0.4"
+        android:src="@mipmap/ic_notifications_paused_black_24dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="#FF6664"
+        android:onClick="selectTable">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take order"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/leadingEdge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/rectangle_four" />
+</FrameLayout>
